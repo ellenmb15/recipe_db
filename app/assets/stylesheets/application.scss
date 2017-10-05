@@ -6,6 +6,13 @@ body {
 	background-color: #F1F2E5;
 }
 
+a:visited {
+	color: #F1F2E5;
+}
+
+a:hover {
+	background-color: transparent;
+}
 
 nav {
 	background-color: #8A9281;
@@ -44,11 +51,11 @@ h4 {
 	text-decoration: none;
 }
 
-
 .navbar {
 	background-color: #311C37;
 	border: 0px;		
 }
+
 .navstyles {
 	color: #F1F2E5;
 	font-size: 24px;
@@ -69,8 +76,6 @@ h4 {
 
 }
 
-
-
 p, ul, li {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -88,6 +93,7 @@ img.recipe-show {
 
 .editdelete a{
 	color: #8A9281;
+	margin: 10px;
 }
 
 .editdelete a:hover {
@@ -98,10 +104,6 @@ img.recipe-show {
 .editdelete {
 	float: right;
 
-}
-
-.editdelete a {
-	margin: 10px;	
 }
 
 .showingredients {
