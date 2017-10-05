@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <title>RecipeDb</title>
+    <title>Mama's Kitchen</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+<div class="navigation">
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-faded">
+	<h4>
+    <div class="container">
+  		<%= link_to "Home", root_path, class: "navbar-brand", class: "navstyles"%>
+      <div class="right">
+        <%= link_to "About", pages_about_path, class: "nav-link", class: "navstyles"%>
+      </div>
+	 </div>
+  </h4>
+</nav>
+</div>
+<div class="container">
   <body>
     <%= yield %>
   </body>
+</div>
 </html>
